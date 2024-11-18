@@ -295,7 +295,15 @@ import ExcelOpenExample from "./components/Tmpemployeid";
 import ExcelFileHandler from "./components/Tmpemployeid";
 import ExcelToSpreadsheet from "./components/Tmpemployeid";
 import BankFormMaster from "./component/Masters-company/CompanyBankDetails";
-import PFNomineeForm from "./component/Masters-company/PFNominee";
+import PFNominee from "./Component1/Masters/Holidayemp/pfnominee";
+import LeaveDetails from "./components/Leave Apply New/GetLeaveDetails";
+import 'ag-grid-enterprise';
+import ESIForm from "./component/Masters-company/ESISettings";
+import LeaveAllocationFormm from "./components/LeaveAllocationMaster/LeaveAllocationMasterForm";
+import LeaveAllocate from "./component/Masters-company/LeaveAllocateBy";
+import CTCSlabTable from "./component/Masters-company/SLABLOAN";
+import LoanPreclosure from "./component/Masters-company/LoanPreCloser";
+import LoanPreclosureRequest from "./Component1/Masters/LoanPreCloserRequest";
 
 const store = createStore(entityReducer);
 const root = ReactDOM.createRoot(document.getElementById("root"));
@@ -371,8 +379,9 @@ root.render(
              <Route path="/DepartmentHome" element={<DepartmentHome/>}/>
              <Route path="/DesignationHome" element={<DesignationHome/>}/>
              <Route path="/SlideAnimationComponent" element={<SlideAnimationComponent/>}></Route>
+             <Route path="/LeaveDetails" element={<LeaveDetails/>}></Route>
 
-
+             
 
 {/*login company---------------------------------------------------------------------------------------------------*/}
 
@@ -418,7 +427,20 @@ root.render(
 <Route path="/PaySlipFormTemplate" element={<PaySlipFormTemplate/>}/>
 <Route path="/PrintPayslip" element={<PrintPayslip/>}/>
 
-<Route path="/PFNomineeForm" element={<PFNomineeForm/>}/>
+<Route path="/PFNomineeForm" element={<PFNominee/>}/>
+
+<Route path="/ESIForm" element={<ESIForm/>}/>
+
+<Route path="/LeaveAllocate" element={<LeaveAllocate/>}/>
+
+<Route path="/CTCSlabTable" element={<CTCSlabTable/>}/>
+
+<Route path="/LoanPreclosure" element={<LoanPreclosure/>}/>
+
+<Route path="/LoanPreclosureRequest" element={<LoanPreclosureRequest/>}/>
+
+
+
 
 
 

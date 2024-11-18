@@ -1,0 +1,6 @@
+/* DataGridStyles.css */
+.editing-row {
+    background-color: rgba(0, 123, 255, 0.2); /* Light blue to highlight */
+    transition: background-color 0.3s ease;
+  }
+  

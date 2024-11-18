@@ -762,7 +762,7 @@ const columns = [
           color="error"
           size="small"
           onClick={() => handleDelete(params.id)}
-        >
+        > 
           <DeleteOutlinedIcon />
         </IconButton>
       ),

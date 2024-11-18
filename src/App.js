@@ -6,6 +6,8 @@ import {
   Routes,
   Outlet,
 } from "react-router-dom";
+import 'ag-grid-enterprise';
+
 import {SpreadsheetComponent} from '@syncfusion/ej2-react-spreadsheet'
 import MainPage from "./components/nav";
 // import ServiceCard from './components/servicecard';
